@@ -1,0 +1,728 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+
+html {
+	overflow: scroll;
+}
+/* red strip header*/
+header {
+	background: #1d1d1d url(3.png) repeat;
+	height: 500px;
+	border: 1px solid black;
+	margin-top: 5px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 400%;
+	padding-top: 10%;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font: size 200%;
+	padding-top: 0%;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	font: size 100%;
+	padding-top: 0%;
+}
+/* navigation bar */
+.menubar a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 55px;
+	border: 1px transparent #fff;
+	transition: 0.9s ease;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	float: right;
+	list-style-type: none;
+	margin-top: 55px;
+}
+
+.menubar a:hover {
+	background-color: #fff;
+	color: rgb(5, 5, 5);
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* Break Skills logo*/
+.logo img {
+	float: left;
+	width: 410px;
+	height: auto;
+}
+
+
+
+
+
+/* parallax effect css*/
+
+.parallax {
+	background: url('photo-0.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 580px;
+	border: 1px solid black;
+}
+
+.para {
+	background: url('pic.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;
+	border: 1px solid black;
+	margin-bottom: -30px;
+}
+
+.para h1 {
+	font-size: 150px;
+	text-align: center;
+	padding-top: 0%;
+}
+
+.para h2 {
+	font-size: 100px;
+	text-align: center;
+	padding-top: 0%;
+}
+
+.parallax h1 {
+	font-size: 150px;
+	text-align: center;
+	padding-top: 0%;
+	float: left;
+}
+
+.parallax h2 {
+    font-size: 150px;
+    text-align: center;
+    padding-top: 11%;
+}
+
+.parallax h3 {
+	font-size: 150px;
+	text-align: center;
+	padding-top: 0%;
+	float: right;
+}
+/* footer*/
+footer {
+	bottom: 0;
+	border: 1px solid black;
+}
+
+.footer-distributed {
+	background: url(3.png);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 35px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+.footer-distributed h3 {
+	color: white;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span {
+	color: white;
+}
+
+.footer-distributed .footer-links {
+	color: #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+	color: white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-center {
+	width: 35%;
+}
+
+.footer-distributed .footer-center i {
+	background-color: #292c2f;
+	color: white;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+	color: #5383d3;
+	text-decoration: none;
+	;
+}
+
+.footer-distributed .footer-right {
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+	line-height: 20px;
+	color: white;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #292c2f;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.footer-distributed .footer-center i {
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+}
+
+.icon img {
+	float: left;
+	width: 52px;
+	height: 51px;
+	margin-top: 2px;
+}
+/* background*/
+.parent {
+	background: url(4.png);
+	background-size: cover;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 6px;
+	margin-bottom: 5px;
+}
+/*container displaying login signup play area ranks*/
+.child {
+	background: url(5.png);
+	background-size: cover;
+	width: 85%;
+	height: 1000px;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 115px;
+	margin-bottom: 100px;
+	border-radius: 8px;
+	opacity: 0.9;
+}
+/* play buttom*/
+.playbuttom img {
+	margin-left: 43%;
+	width: 13%;
+}
+
+.playbuttom ul {
+	list-style-type: none;
+	margin-top: 1%;
+	padding-left: 42%;
+}
+
+.playbuttom ul li {
+	display: inline-block;
+}
+
+.playbuttom ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 55px;
+	border: 1px transparent #fff;
+	transition: 0.9s ease;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.playbuttom ul li a:hover {
+	background-color: transparent;
+	color: rgb(5, 5, 5);
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.logochild {
+    margin: 35%;
+    margin-top: 2%;
+    border-radius: 8px;
+}
+
+
+/*Login Form*/
+.box {
+    width: 600px;
+    padding: -31px;
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -5%;
+    border: 2px solid black;
+	height:600px;
+}
+
+.box h1 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size:100px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	margin-top:3%;
+	text-align: center;
+	border: 5px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 8px;
+	transition: 0.25s;
+}
+
+
+.box input[type="text"],
+.box input[type="Confirm password"] {
+	border: 0;
+	background: none;
+	margin-top:3%;
+	display: block;
+	margin: 12px auto;
+	text-align: center;
+	border: 5px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 8px;
+	transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+	width: 280px;
+	border-color: black;
+}
+
+.box input[type="submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+	background: #2ecc71;
+}
+
+.box a {
+	text-decoration: none;
+}
+
+.box a:hover {
+	text-decoration: underline;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 84%;
+	margin-top: -21%;
+	margin-left: 8%;
+	;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+	width: 10%;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.play {
+	width: 54%;
+	height: 582px;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 36px;
+	margin-bottom: 100px;
+	border-radius: 8px;
+	opacity: 1;
+}
+
+.playbuttom {
+	margin-top: -22%;
+}
+
+/* javascript css */
+        #sound{
+            width: 30px;
+            height : 30px;
+            cursor: pointer;
+            position: absolute;
+            top : 465px;
+            left : 15px;
+        }
+       
+		#gameover {
+			position: absolute;
+			width: 400px;
+			height: 500px;
+			display: none;
+			top: 165%;
+			right: 71%;
+		}
+		
+        #youwon{
+            width: 100px;
+            position: absolute;
+            top : 200px;
+            left : 150px;
+            display: none;
+        }
+        #youlose{
+            width:400px;
+            position: absolute;
+            top: 100px;
+            left : 0px;
+            display: none;
+        }
+        #restart{
+            position: absolute;
+            top: 287px;
+            left : 155px;
+            cursor: pointer;
+            font-size: 1.25em;
+            color : #FFF;
+		}
+		
+				#breakout {
+					border-top-color: #0ff;
+					border-right-color: #0ff;
+					border-bottom-color: #0ff;
+					border-left-color: #0ff;
+					border-top-width: 1px;
+					border-right-width: 1px;
+					border-bottom-width: 1px;
+					border-left-width: 1px;
+					border-top-style: solid;
+					border-right-style: solid;
+					border-bottom-style: solid;
+					border-left-style: solid;
+					border-image-source: none;
+					border-image-slice: 100%;
+					border-image-width: 1;
+					border-image-outset: 0;
+					border-image-repeat: stretch;
+					position: absolute;
+					right: 29%;
+					bottom: -123%;
+				}
+				
+			
+			
+		
+		
+
+
+/* sign up css */
+#forgot{
+	  display:block;
+} 
+
+
+/* login validation css*/
+
+.box {
+    width: 600px;
+    padding: -31px;
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -5%;
+    border: 2px solid black;
+    height: 771px;
+}
+.box input[type='date'], .box input[type='dob'] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 3%;
+    text-align: center;
+    border: 5px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 8px;
+    transition: 0.25s;
+}
+
+
+.box h1 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size:100px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	margin-top:8%;
+	text-align: center;
+	border: 5px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 8px;
+	transition: 0.25s;
+}
+.box input[type="username"],
+.box input[type="text"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	margin-top:8%;
+	text-align: center;
+	border: 5px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 8px;
+	transition: 0.25s;
+}
+
+.box input[type="Address"],
+.box input[type="text"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	margin-top:8%;
+	text-align: center;
+	border: 5px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 8px;
+	transition: 0.25s;
+}
+.box input[type="date"],
+.box input[type="dob"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	margin-top:8%;
+	text-align: center;
+	border: 5px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 8px;
+	transition: 0.25s;
+}
+
+.box input[type="text"],
+.box input[type="Confirm password"] {
+	border: 0;
+	background: none;
+	margin-top:20%;
+	display: block;
+	margin: 11px auto;
+	text-align: center;
+	border: 5px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 8px;
+	transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+	width: 280px;
+	border-color: black;
+}
+
+.box input[type="submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+	background: #2ecc71;
+}
+
+.box a {
+	text-decoration: none;
+}
+
+.box a:hover {
+	text-decoration: underline;
+}
+
+#registerbt {
+    background-color: black;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    margin-top: -13%;
+}
+
+
+
+
